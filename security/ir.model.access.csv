@@ -1,0 +1,11 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"access_djbc_docs_manager","access.djbc.docs.manager","model_djbc_docs","djbc.group_djbc_manager",1,1,1,1
+"access_djbc_hscode_manager","access.djbc.hscode.manager","model_djbc_hscode","djbc.group_djbc_manager",1,1,1,1
+"access_djbc_docs_user","access.djbc.docs.user","model_djbc_docs","djbc.group_djbc_user",1,0,0,0
+"access_djbc_hscode_user","access.djbc.hscode.user","model_djbc_hscode","djbc.group_djbc_user",1,0,0,0
+"access_djbc_categs_manager","access.djbc.categs.manager","model_djbc_categs","djbc.group_djbc_manager",1,1,1,1
+"access_djbc_categs_user","access.djbc.categs.user","model_djbc_categs","djbc.group_djbc_user",1,0,0,0
+"access_djbc_doctype_manager","access.djbc.doctype.manager","model_djbc_doctype","djbc.group_djbc_manager",1,1,1,1
+"access_djbc_doctype_user","access.djbc.doctype.user","model_djbc_doctype","djbc.group_djbc_user",1,0,0,0
+"access_djbc_containers_manager","access.djbc.containers.manager","model_djbc_containers","djbc.group_djbc_manager",1,1,1,1
+"access_djbc_containers_user","access.djbc.containers.user","model_djbc_containers","djbc.group_djbc_user",1,0,0,0

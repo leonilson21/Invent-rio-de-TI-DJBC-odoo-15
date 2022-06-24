@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<menuitem id="djbc_root" name="IT Inventory" web_icon="djbc,static/description/warehouse.png" sequence="1"/>
+
+	<!--level 1-->
+	<menuitem id="djbc_form" name="Form" parent="djbc_root" sequence="10"/>
+	<menuitem id="djbc_laporan" name="Laporan" parent="djbc_root" sequence="20"/>
+	<menuitem id="djbc_config" name="Config" parent="djbc_root" sequence="30"/>
+
+	<!--level 2 Form-->
+	<menuitem id="djbc_docs" name="Extra Docs" parent="djbc_form" action="djbc_docs_action"/>
+	<menuitem id="djbc_hscode" name="HS Code" parent="djbc_config" action="djbc_hscode_action"/>
+	<menuitem id="djbc_categs" name="Extra Categories" parent="djbc_config" action="djbc_categs_action"/>
+	<menuitem id="djbc_doctype" name="Extra Doc Type" parent="djbc_config" action="djbc_doctype_action"/>
+
+
+</odoo>
